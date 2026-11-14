@@ -1,0 +1,18 @@
+__pycache__/
+.ipynb_checkpoints/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+.DS_Store
+
+# CEIC data are proprietary (paid subscription) and may not be redistributed
+data/Compiled.xlsx
+data/IIP/*.xlsx
+data/raw/ceic/*
+!data/raw/ceic/.gitkeep
+outputs/master_dataset.xlsx
