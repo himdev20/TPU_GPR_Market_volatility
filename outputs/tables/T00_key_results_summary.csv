@@ -1,0 +1,19 @@
+Item,Result
+Sample,Apr-2000 – Dec-2025 (N=309)
+RollVol mean / SD / min / max (%),"[20.11, 8.49, 9.41, 51.45]"
+"GARCH-X δ1 (TPU→variance) coef, p","[-0.0053, 0.095]"
+"GARCH-X δ2 (GPR→variance) coef, p","[-0.0115, 0.418]"
+GARCH-X α+β,0.937
+"LR test GARCH-X vs GARCH(1,1), p",0.475
+Johansen rank: full / 3-var,8 / 3
+"Base ARDL R², RollVol_L1","0.9321, [0.8692, 0.0]"
+Base ARDL bounds F (5% I0/I1) → conclusion,"3.626 [2.06, 3.24] → Reject H0 → long-run level relationship"
+Robust ARDL order,"[1, 0]"
+Robust ARDL bounds F (5% I0/I1) → conclusion,"6.752 [2.22, 3.4] → Reject H0 → long-run level relationship"
+"Robust ARDL GPR SR coef, p","[-0.00021, 0.062]"
+Robust ARDL half-life (months),3.78
+"SVAR lag; FEVD at 24m (TPU, GPR, own %)","1; [0.91, 0.01, 99.08]"
+"TVP significant months (pos, neg): TPU / GPR / TPU×GPR","[0, 0] / [0, 19] / [0, 0]"
+Best ML model (test RMSE),AR(1) (0.0244)
+Naive benchmark RMSE / R²,0.0246 / 0.7886
+LASSO selected features,"['RollVol_L1', 'US_VIX', 'MPU', 'TPU_GPR', 'Int_Rate_L3']"

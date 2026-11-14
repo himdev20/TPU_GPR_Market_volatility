@@ -1,0 +1,9 @@
+Check,Result
+Macro: first / last month,Apr-1999 / Dec-2025
+Macro: number of months,321
+Macro: months missing in calendar,0
+Macro: missing values,0
+NSE: first / last month,Apr-1999 / Dec-2025
+NSE: number of months,321
+"NSE: |reported Change% − computed| (max, pp)",0.005
+Macro and NSE dates identical,True

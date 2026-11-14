@@ -1,0 +1,4 @@
+Model,alpha,l1_ratio,Non-zero coefs
+LASSO,0.00206,1.0,5
+Ridge,26.56088,0.0,52
+Elastic Net,0.00212,0.9,6

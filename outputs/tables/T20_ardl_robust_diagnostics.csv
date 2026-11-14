@@ -1,0 +1,25 @@
+,Robust ARDL
+N,308.0
+R²,0.9299419125044748
+Adj. R²,0.9273384024961951
+AIC,-499.2302733326212
+BIC,-454.46907593693834
+Durbin–Watson,1.8123351420949094
+Ljung–Box Q(12) p,3.494447015017284e-09
+Breusch–Pagan p,0.0009354753484804175
+Jarque–Bera p,2.2783382101712907e-120
+Σφ (persistence),0.8323735601080898
+Speed of adjustment 1−Σφ,0.16762643989191017
+Half-life of a shock (months),3.777905182492961
+Ramsey RESET p (power 2),0.4006431505674836
+CUSUM (OLS resid) p,0.7241809426675306
+Bounds F (PSS Case III),6.7519981380899665
+k,8.0
+5% bounds I(0) / I(1),2.22 / 3.40
+10% bounds I(0) / I(1),1.95 / 3.06
+p-value vs I(0) / I(1) bound,0.000 / 0.000
+Bounds conclusion (5%),Reject H0 → long-run level relationship
+t-stat on y(t−1) in UECM,-6.139966985021291
+F on lagged x-levels only,5.832814317856639
+Dummies kept,"D_GFC, D_COVID"
+"Lag order (p, q)","(1, 0)"

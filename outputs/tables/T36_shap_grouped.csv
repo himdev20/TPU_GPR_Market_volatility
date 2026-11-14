@@ -1,0 +1,6 @@
+,Mean |Σ SHAP| of group
+RollVol lags,0.069307
+US_VIX (all),0.003492
+GPR (all GPR features),0.002924
+TPU (all TPU features),0.001727
+TPU×GPR (all),0.000824
